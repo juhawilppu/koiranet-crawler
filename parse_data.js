@@ -2,7 +2,7 @@ const cheerio = require('cheerio');
 
 module.exports = {};
 
-module.exports.parseYear = (contents) => {
+module.exports.parseYear = (year, contents) => {
     const $ = cheerio.load(contents);
     const tbody = $('#Table tbody');
 
@@ -26,7 +26,13 @@ module.exports.parseYear = (contents) => {
         // If new litter, create empty object
         if (!litters[litterIndex]) {
             litters[litterIndex] = {
-                data: null,
+                year,
+                data: {
+                    name: null,
+                    urosCount: null,
+                    narttuCount: null,
+                    totalCount: null
+                },
                 colors: []
             }
         }
@@ -55,9 +61,33 @@ module.exports.parseYear = (contents) => {
 const parseLitterData = tr => {
     const $ = cheerio;
 
-    const countTxt = $(tr.children[3]).text().split('::')[0].trim().split(',');
-    const urosCount = parseInt(countTxt[0].replace(' urosta'), 10);
-    const narttuCount = parseInt(countTxt[0].replace(' narttua'), 10);
+    // Example values of countTxt:
+    // - "1 uros, 1 narttu"
+    // - "2 urosta, 4 narttua"
+    // - "1 uros"
+    // - "2 urosta"
+    // - "1 narttu"
+    // - "7 narttua"
+    const countTxt = $(tr.children[3]).text().split('::')[0].trim();
+    const countSplitted = countTxt.split(',');
+
+    let urosCount;
+    let narttuCount;
+
+    if (countSplitted.length === 1) {
+        if (countSplitted[0].includes('uros')) {
+            urosCount = parseInt(countSplitted[0].replace(' urosta').replace(' uros'), 10);
+            narttuCount = 0;
+        } else if (countSplitted[0].includes('nart')) {
+            urosCount = 0;
+            narttuCount = parseInt(countSplitted[0].replace(' narttua').replace(' narttu'), 10);
+        } else {
+            throw "Unable to parse: " + countTxt;
+        }
+    } else {
+        urosCount = parseInt(countSplitted[0].replace(' urosta').replace(' uros'), 10);
+        narttuCount = parseInt(countSplitted[1].replace(' narttua').replace(' narttu'), 10);
+    }
 
     return {
         name: $(tr.children[2]).text(),
@@ -72,7 +102,21 @@ const parseLitterData = tr => {
  */
 const parseDogColor = tr => {
     const $ = cheerio;
-    return $(tr.children[5]).text()
+    const rawColor = $(tr.children[5]).text();
+
+    // Map and harmonize data
+    switch (rawColor) {
+        case "soopeli valkoisin merkein":
+            return "soopeli";
+        case "soopeli-valkoinen":
+            return "soopeli";
+        case "musta-valkoinen":
+            return "mustavalkoinen";
+        case "":
+            return "(puuttuu)"
+        default:
+            return rawColor;
+    }
 }
 
 return module.exports;

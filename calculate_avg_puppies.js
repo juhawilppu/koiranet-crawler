@@ -25,7 +25,7 @@ const onlyUniqueColors = (currentColorObjected, currentIndex, list) => {
  */
 const isSameColorCombination = (colors1, colors2) => {
     return colors1[0] === colors2[0] &&
-        colors2[1] === colors2[1]
+        colors1[1] === colors2[1]
 }
 
 module.exports.calculateAvgPuppies = litters => {
@@ -51,9 +51,9 @@ module.exports.calculateAvgPuppies = litters => {
 
     const sortedAndFiltered = counts.sort((a, b) => b.avgPuppies - a.avgPuppies);
 
-    console.log('COLOR1,COLOR2,NUM. OF LITTERS,AVG. PUPPIES PER LITTER');
+    console.log('COLORS,NUM. OF LITTERS,AVG. PUPPIES PER LITTER');
     sortedAndFiltered.map(s => {
-        console.log(s.colors[0] + "," + s.colors[1] + "," + s.litters + "," + s.avgPuppies.toFixed(2))
+        console.log(`${s.colors[0]} & ${s.colors[1]},${s.litters},${s.avgPuppies.toFixed(2)}`);
     });
 }
 
