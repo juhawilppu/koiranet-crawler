@@ -19,7 +19,7 @@ const onlyUniqueColors = (currentColorObjected, currentIndex, list) => {
  * colors2 = ['sable', 'tricolour']
  * -> Not the same
  * 
- * Note: Colors are sorted alphabetically. It is NOT possible to have:
+ * Note: Colors are sorted alphabetically. It is not possible to have:
  * colors1 = ['bluemerle', 'tricolour']
  * colors2 = ['tricolour', 'bluemerle']
  */
@@ -35,7 +35,9 @@ module.exports.calculateAvgPuppies = litters => {
         .filter(onlyUniqueColors);
 
     // Merge data for the color-combinations between multiple litters
-    const counts = colorCombinations.map(combination => {
+    const counts = colorCombinations
+    .filter(combination => !combination.includes('(puuttuu)'))
+    .map(combination => {
         const matchingLitters = litters
             .filter(litter => isSameColorCombination(litter.colors, combination));
 
@@ -43,18 +45,14 @@ module.exports.calculateAvgPuppies = litters => {
             colors: combination,
             avgPuppies: matchingLitters
                 .map(m => m.data.totalCount)
-                .reduce((count, total) => total + count, 0) / matchingLitters.length,
+                .reduce((count, total) => total + count, 0) / matchingLitters.length || null,
             litters: matchingLitters.length
         };
 
     });
 
     const sortedAndFiltered = counts.sort((a, b) => b.avgPuppies - a.avgPuppies);
-
-    console.log('COLORS,NUM. OF LITTERS,AVG. PUPPIES PER LITTER');
-    sortedAndFiltered.map(s => {
-        console.log(`${s.colors[0]} & ${s.colors[1]},${s.litters},${s.avgPuppies.toFixed(2)}`);
-    });
+    return sortedAndFiltered;
 }
 
 return module.exports;
