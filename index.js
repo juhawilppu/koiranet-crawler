@@ -13,7 +13,7 @@ const litters2018 = parseYear(2018, fs.readFileSync(files[0], 'utf8'));
 const litters2017 = parseYear(2017, fs.readFileSync(files[1], 'utf8'));
 const litters2016 = parseYear(2016, fs.readFileSync(files[2], 'utf8'));
 
-const litters = litters2018.concat(litters2017).concat(litters2016);
+const litters = [].concat(litters2018).concat(litters2017).concat(litters2016);
 
-calculateAvgPuppies(litters);
+console.log(calculateAvgPuppies(litters));
 //calculateHistogramPuppies(litters);
