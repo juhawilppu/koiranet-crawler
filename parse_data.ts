@@ -46,9 +46,10 @@ exports.parseYear = (contents : string) => {
         } else if (litterRowIndex === 1) {
             // Header, do nothing
         } else if (litterRowIndex === 2) {
-            litters[litterIndex].colors.push(parseDogColor(tr));
+            litters[litterIndex].colors.push(exports.parseDogColor(tr));
         } else if (litterRowIndex === 3) {
             litters[litterIndex].colors.push(
+                exports.
                 parseDogColor(tr));
 
             // Sort the colors alphabetically.
@@ -66,7 +67,7 @@ exports.parseYear = (contents : string) => {
 const parseLitterData = tr => {
     const $ = cheerio;
 
-    const date = $(tr.children[1]).text().replace('synt. ', '');
+    const date = exports.parseDate($(tr.children[1]).text());
     const kennel = $(tr.children[2]).text();
 
     const countTxt = $(tr.children[3]).text().split('::')[0].trim();
@@ -80,6 +81,10 @@ const parseLitterData = tr => {
         narttuCount: counts.narttuCount,
         totalCount: counts.totalCount
     }
+}
+
+exports.parseDate = date => {
+    return date.replace('synt. ', '')
 }
 
 // Example values of countTxt:
@@ -120,10 +125,13 @@ exports.count = countTxt => {
 /**
  * Parse KoiraNet HTML for a dog information
  */
-const parseDogColor = tr => {
+exports.parseDogColor = tr => {
     const $ = cheerio;
     const rawColor = $(tr.children[5]).text();
+    return this.mapDogColor(rawColor);
+}
 
+exports.mapDogColor = rawColor => {
     // Harmonize data and translate to English.
     switch (rawColor) {
         case "soopeli":

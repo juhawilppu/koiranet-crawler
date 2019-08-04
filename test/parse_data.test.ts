@@ -1,8 +1,8 @@
 const assert = require('assert');
 const nassert = require('n-assert');
 
-describe('Basic Mocha String Test', function () {
-    it('should parse all litters', function () {
+describe('ParseData', function () {
+    it('should parse all litters (read from a file)', function () {
         const { readFile } = require ('../file_reader');
         const parseData = require('../parse_data');
         const litters = parseData.parseYear(readFile('./test/test_data/test_data.htm'));
@@ -10,16 +10,14 @@ describe('Basic Mocha String Test', function () {
         assert.equal(litters.length, 259);
     });
 
-    it('should contain correct information', function () {
+    it('should contain correct litter information (read from a file)', function () {
         const { readFile } = require ('../file_reader');
         const parseData = require('../parse_data');
         const litters = parseData.parseYear(readFile('./test/test_data/test_data.htm'));
-        const litter = litters[0
-        ];
+        const litter = litters[0];
 
         assert.equal(litter.data.kennel, "NEW SPICES");
         assert.equal(litter.data.date, "24.11.2016");
-
         assert.equal(litter.colors[0], "blue merle");
         assert.equal(litter.colors[1], "tricolour");
         assert.equal(litter.data.urosCount, 2);
@@ -35,6 +33,21 @@ describe('Basic Mocha String Test', function () {
         nassert.assert({urosCount: 2, narttuCount: 0, totalCount: 2}, parseData.count("2 urosta"));
         nassert.assert({urosCount: 0, narttuCount: 1, totalCount: 1}, parseData.count("1 narttu"));
         nassert.assert({urosCount: 0, narttuCount: 3, totalCount: 3}, parseData.count("3 narttua"));
+    });
+
+    it('should map dog colors', function () {
+        const parseData = require('../parse_data');
+        assert.equal("black and white", parseData.mapDogColor("musta-valkoinen"));
+        assert.equal("black and white", parseData.mapDogColor("mustavalkoinen"));
+        assert.equal("blue merle", parseData.mapDogColor("blue merle"));
+        assert.equal("sable", parseData.mapDogColor("soopeli"));
+        assert.equal("sable", parseData.mapDogColor("soopeli-valkoinen"));
+        assert.equal("sable", parseData.mapDogColor("soopeli valkoisin merkein"));
+    });
+
+    it('should parse date', function () {
+        const parseData = require('../parse_data');
+        assert.equal("10.12.2018", parseData.parseDate("synt. 10.12.2018"));
     });
 
 
