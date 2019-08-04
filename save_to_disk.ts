@@ -1,7 +1,6 @@
 const fs = require('fs');
 
-module.exports = {};
-module.exports.saveToDisk = (filepath, lines) => {
+export const saveToDisk = (filepath, lines) => {
     const stream = fs.createWriteStream(filepath);
     stream.once('open', function(fd) {
         lines.forEach(line => {
@@ -11,5 +10,3 @@ module.exports.saveToDisk = (filepath, lines) => {
     });
     console.log('Saved file ' + filepath);
 }
-
-return module.exports;

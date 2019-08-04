@@ -1,59 +1,58 @@
 const cheerio = require('cheerio');
 
-module.exports = {};
+export const parseYear = (year, contents) => {
+        const $ = cheerio.load(contents);
+        const tbody = $('#Table tbody');
 
-module.exports.parseYear = (year, contents) => {
-    const $ = cheerio.load(contents);
-    const tbody = $('#Table tbody');
+        const litters = [];
 
-    const litters = [];
+        tbody.children().each((index, tr) => {
+            const ROWS_PER_LITTER = 4;
 
-    tbody.children().each((index, tr) => {
-        const ROWS_PER_LITTER = 4;
+            // The html doesn't have a specific parent for each litter.
+            //
+            // Example:
+            // <tbody>
+            // <tr>...</tr> <- litter 0
+            // <tr>...</tr> <- litter 0
+            // <tr>...</tr> <- litter 0
+            // <tr>...</tr> <- litter 1
+            // etc.
+            const litterIndex = Math.ceil(((index+1) / ROWS_PER_LITTER) - 1);
+            const litterRowIndex = index % ROWS_PER_LITTER;
 
-        // The html doesn't have a specific parent for each litter.
-        //
-        // Example:
-        // <tbody>
-        // <tr>...</tr> <- litter 0
-        // <tr>...</tr> <- litter 0
-        // <tr>...</tr> <- litter 0
-        // <tr>...</tr> <- litter 1
-        // etc.
-        const litterIndex = Math.ceil(((index+1) / ROWS_PER_LITTER) - 1);
-        const litterRowIndex = index % ROWS_PER_LITTER;
-
-        // If new litter, create empty object
-        if (!litters[litterIndex]) {
-            litters[litterIndex] = {
-                year,
-                data: {
-                    name: null,
-                    urosCount: null,
-                    narttuCount: null,
-                    totalCount: null
-                },
-                colors: []
+            // If new litter, create empty object
+            if (!litters[litterIndex]) {
+                litters[litterIndex] = {
+                    year,
+                    data: {
+                        name: null,
+                        urosCount: null,
+                        narttuCount: null,
+                        totalCount: null
+                    },
+                    colors: []
+                }
             }
-        }
 
-        if (litterRowIndex === 0) {
-            litters[litterIndex].data = parseLitterData(tr);
-        } else if (litterRowIndex === 1) {
-            // Header, do nothing
-        } else if (litterRowIndex === 2) {
-            litters[litterIndex].colors.push(parseDogColor(tr));
-        } else if (litterRowIndex === 3) {
-            litters[litterIndex].colors.push(parseDogColor(tr));
+            if (litterRowIndex === 0) {
+                litters[litterIndex].data = parseLitterData(tr);
+            } else if (litterRowIndex === 1) {
+                // Header, do nothing
+            } else if (litterRowIndex === 2) {
+                litters[litterIndex].colors.push(parseDogColor(tr));
+            } else if (litterRowIndex === 3) {
+                litters[litterIndex].colors.push(
+                    parseDogColor(tr));
 
-            // Sort the colors alphabetically.
-            // This makes comparison of colors easier.
-            litters[litterIndex].colors.sort();
-        }
-    });
+                // Sort the colors alphabetically.
+                // This makes comparison of colors easier.
+                litters[litterIndex].colors.sort();
+            }
+        });
 
-    return litters;
-}
+        return litters;
+    }
 
 /**
  * Parse KoiraNet HTML for litter basic data
@@ -131,7 +130,7 @@ const parseDogColor = tr => {
     }
 }
 
-module.exports.formatCsv = litters => {
+export const formatLitterCsv = litters => {
     const lines = [];
     lines.push('NAME,COLOR_COMBINATION,DATE,MALE_PUPPIES,FEMALE_PUPPIES,TOTAL_PUPPIES');
     litters.forEach(litter => {
@@ -139,5 +138,3 @@ module.exports.formatCsv = litters => {
     });
     return lines;
 }
-
-return module.exports;

@@ -2,15 +2,17 @@
   "name": "koiranet-crawler",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9"
+    "@types/node": "^12.6.9",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
   },
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "ts-node index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Juha Wilppu",
