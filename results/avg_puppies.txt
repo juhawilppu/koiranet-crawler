@@ -1,0 +1,10 @@
+COLOR COMBINATION,NUM. OF LITTERS,TOTAL PUPPIES,AVG. PUPPIES PER LITTER
+black and white & black and white,2,8,4.00
+blue merle & sable,1,4,4.00
+black and white & blue merle,46,180,3.91
+black and white & tricolour,11,43,3.91
+black and white & sable,16,61,3.81
+blue merle & tricolour,311,1130,3.63
+sable & tricolour,169,595,3.52
+tricolour & tricolour,43,146,3.40
+sable & sable,222,695,3.13

@@ -1,0 +1,831 @@
+NAME,COLOR_COMBINATION,DATE,MALE_PUPPIES,FEMALE_PUPPIES,TOTAL_PUPPIES
+KUUNHOHTEEN,blue merle & tricolour,10.11.2018,4,5,9
+BLUEMEADOW'S,sable & tricolour,10.11.2018,1,2,3
+SMARTTEAMS,sable & tricolour,9.11.2018,1,3,4
+SMARTTEAMS,black and white & blue merle,6.11.2018,2,3,5
+TARUAARTEEN,blue merle & tricolour,1.11.2018,1,3,4
+KEPPOSEN,sable & tricolour,28.10.2018,2,5,7
+TRICKY BLUE'S,blue merle & tricolour,27.10.2018,1,2,3
+TRICKY BLUE'S,blue merle & tricolour,24.10.2018,2,2,4
+KVARNGÅRDEN,blue merle & tricolour,23.10.2018,1,2,3
+PRIMEMIND,blue merle & tricolour,22.10.2018,2,2,4
+SNOWGLOW'S,blue merle & tricolour,22.10.2018,2,2,4
+NEITI NÄPPÄRÄN,sable & tricolour,21.10.2018,2,0,2
+COPYSTYLE,blue merle & tricolour,20.10.2018,2,1,3
+BACKYARD'S FELLOWS,blue merle & tricolour,20.10.2018,1,1,2
+KANGASVUOKON,blue merle & tricolour,20.10.2018,3,0,3
+AMOR'JADE,blue merle & tricolour,19.10.2018,0,1,1
+HALOILMIÖN,sable & sable,17.10.2018,2,1,3
+SNOWPAW,null & sable,17.10.2018,3,1,4
+ESSUNTASSUN,black and white & blue merle,15.10.2018,3,0,3
+MEI DAN,sable & sable,13.10.2018,0,1,1
+JÄPÄLÄN,black and white & blue merle,13.10.2018,2,3,5
+BERNOBAN,black and white & tricolour,12.10.2018,1,1,2
+GWENDA,sable & sable,10.10.2018,2,2,4
+SHET UP,blue merle & tricolour,10.10.2018,2,2,4
+FULLMOON DIAMONDS,sable & tricolour,9.10.2018,3,2,5
+TODAY'S,blue merle & tricolour,8.10.2018,2,1,3
+SHETWOOD,black and white & tricolour,7.10.2018,3,1,4
+DALIMATTAS,sable & sable,7.10.2018,1,2,3
+TOIVEIDEN,blue merle & tricolour,7.10.2018,2,1,3
+WANNADREAM'S,blue merle & tricolour,5.10.2018,1,1,2
+TOFFYTAIL,sable & sable,5.10.2018,2,1,3
+NOOPELIN,blue merle & tricolour,3.10.2018,1,3,4
+TUULITUKAN,sable & tricolour,2.10.2018,1,2,3
+SILIMEN,blue merle & tricolour,27.9.2018,2,3,5
+KAITAKUONON,blue merle & tricolour,21.9.2018,0,1,1
+BLACK SARA'S,sable & sable,21.9.2018,1,2,3
+BOSOM BUDDY'S,sable & tricolour,19.9.2018,2,4,6
+SHEEPWHISPER'S,sable & sable,18.9.2018,1,2,3
+PÄÄTTYMÄTÖN,blue merle & tricolour,17.9.2018,1,0,1
+RONSHET'S,sable & sable,17.9.2018,1,0,1
+BLUEMEADOW'S,blue merle & tricolour,16.9.2018,1,3,4
+ANYWAY,sable & sable,16.9.2018,1,3,4
+ANYWAY,sable & tricolour,16.9.2018,1,2,3
+ONNENPISARAN,sable & sable,16.9.2018,2,0,2
+JAGASAR,sable & tricolour,13.9.2018,2,2,4
+TOIVESADUN,sable & sable,12.9.2018,3,1,4
+IHMETASSUN,blue merle & tricolour,11.9.2018,1,2,3
+SHADELAND,sable & tricolour,11.9.2018,3,1,4
+GOLDEN ROSE,blue merle & tricolour,10.9.2018,3,3,6
+REVONHÄNNÄN,blue merle & tricolour,8.9.2018,1,1,2
+BLENMOON,sable & sable,6.9.2018,1,0,1
+NAPPULAVAARAN,sable & tricolour,6.9.2018,1,4,5
+,sable & tricolour,4.9.2018,0,2,2
+KEIJULEHDON,tricolour & tricolour,3.9.2018,1,5,6
+,black and white & sable,2.9.2018,1,1,2
+BLUEMEADOW'S,blue merle & tricolour,30.8.2018,2,1,3
+BERNOBAN,blue merle & tricolour,28.8.2018,1,2,3
+ONNENPISARAN,sable & sable,26.8.2018,3,1,4
+BLUEMEADOW'S,blue merle & tricolour,25.8.2018,2,2,4
+PYRYTUULEN,black and white & blue merle,24.8.2018,2,2,4
+KUUNHOHTEEN,blue merle & tricolour,23.8.2018,3,3,6
+BERNOBAN,blue merle & tricolour,22.8.2018,1,2,3
+SHETFUN,blue merle & tricolour,21.8.2018,1,3,4
+NAPPULAVAARAN,sable & tricolour,20.8.2018,1,2,3
+TOFFYTAIL,sable & sable,20.8.2018,2,4,6
+KIITÄJÄN,sable & tricolour,19.8.2018,2,2,4
+PARSIALAN,sable & sable,18.8.2018,2,2,4
+AMARANTES,blue merle & tricolour,14.8.2018,0,1,1
+VIOLETDREAM,sable & sable,13.8.2018,3,2,5
+MUTKIS,blue merle & tricolour,11.8.2018,1,1,2
+HUNAJATASSUN,sable & sable,8.8.2018,2,0,2
+ANYWAY,sable & sable,8.8.2018,2,2,4
+ZETLAND'S,sable & sable,7.8.2018,2,1,3
+JA-KAR,blue merle & tricolour,7.8.2018,2,2,4
+TOIVEIDEN,tricolour & tricolour,4.8.2018,0,1,1
+ESMARI,sable & tricolour,3.8.2018,2,0,2
+KETTURETKU,sable & tricolour,31.7.2018,3,2,5
+KULTALAN,sable & tricolour,27.7.2018,5,0,5
+TOIVEIDEN,sable & tricolour,26.7.2018,3,1,4
+IHMETASSUN,sable & tricolour,26.7.2018,1,1,2
+CIMILLAN,black and white & blue merle,26.7.2018,2,3,5
+,tricolour & tricolour,25.7.2018,1,3,4
+CHEERYMAI,blue merle & tricolour,23.7.2018,3,2,5
+SHANDY'S,sable & tricolour,21.7.2018,4,2,6
+PIRPANAN,blue merle & tricolour,21.7.2018,1,2,3
+SUSADAN,blue merle & tricolour,19.7.2018,3,1,4
+WILLIWÄYLÄ,sable & tricolour,17.7.2018,0,2,2
+,blue merle & tricolour,17.7.2018,1,5,6
+BUSTLING'S,blue merle & tricolour,16.7.2018,3,1,4
+SHADELAND,tricolour & tricolour,15.7.2018,3,1,4
+MINTOLAN,blue merle & tricolour,10.7.2018,2,1,3
+FELIWING'S,blue merle & tricolour,8.7.2018,2,0,2
+GWENDA,sable & sable,7.7.2018,5,0,5
+SHELMIAN,sable & sable,3.7.2018,1,0,1
+STARSONG,tricolour & tricolour,2.7.2018,1,1,2
+DEEP ILLUSION'S,blue merle & tricolour,1.7.2018,1,3,4
+DASH'ING,blue merle & tricolour,1.7.2018,1,3,4
+DASH'ING,sable & sable,28.6.2018,2,1,3
+SUSADAN,black and white & blue merle,28.6.2018,1,2,3
+LINNAISTEN,blue merle & tricolour,26.6.2018,4,0,4
+SOMEWHAT,blue merle & tricolour,26.6.2018,1,1,2
+BUMTSI BUM,tricolour & tricolour,25.6.2018,0,4,4
+MUTKIS,blue merle & tricolour,25.6.2018,4,2,6
+CLASSICWAY,sable & sable,25.6.2018,1,1,2
+SOUND'S,sable & tricolour,25.6.2018,1,2,3
+SPRUCEVALLEYS,sable & tricolour,24.6.2018,3,3,6
+STARSONG,blue merle & tricolour,21.6.2018,4,1,5
+USVASAAREN,sable & sable,19.6.2018,0,5,5
+YAZINA'S,sable & sable,18.6.2018,2,0,2
+VICWAY,tricolour & tricolour,18.6.2018,0,3,3
+YAZINA'S,sable & sable,17.6.2018,2,3,5
+KIVIVUOREN,sable & sable,16.6.2018,3,0,3
+KARTIOSUMUN,sable & tricolour,15.6.2018,2,0,2
+BUMTSI BUM,blue merle & tricolour,14.6.2018,3,2,5
+LYSTI-KÄMÄ,blue merle & tricolour,13.6.2018,0,1,1
+BLUEMEADOW'S,sable & tricolour,11.6.2018,3,2,5
+DOGBAY'S,sable & sable,10.6.2018,2,3,5
+BUMTSI BUM,blue merle & tricolour,7.6.2018,1,2,3
+PILVIKIRSIKAN,sable & sable,6.6.2018,1,3,4
+KARVAKEDON,sable & tricolour,5.6.2018,3,2,5
+SHADOWMIST,sable & sable,4.6.2018,0,2,2
+,blue merle & tricolour,4.6.2018,4,2,6
+LÄHDERINTEEN,sable & sable,1.6.2018,3,0,3
+ZETLAND'S,sable & sable,1.6.2018,2,0,2
+PELTSUN,sable & sable,30.5.2018,1,1,2
+HÄIVÄHDYKSEN,blue merle & tricolour,29.5.2018,2,2,4
+KÄPÄLÄKOPLAN,blue merle & tricolour,27.5.2018,2,3,5
+NICE TRY,sable & sable,25.5.2018,1,0,1
+GOLDEN ROSE,blue merle & tricolour,25.5.2018,3,3,6
+FIKSUNTÄHEN,sable & tricolour,22.5.2018,2,2,4
+NEKAROS,blue merle & tricolour,18.5.2018,2,2,4
+JELISAN,tricolour & tricolour,18.5.2018,1,2,3
+KUUNHOHTEEN,blue merle & tricolour,18.5.2018,3,2,5
+BLACK SHEPARD'S,blue merle & tricolour,17.5.2018,0,5,5
+PÄIVÄNPAISTEEN,blue merle & tricolour,13.5.2018,3,1,4
+MEI DAN,sable & tricolour,11.5.2018,4,0,4
+JOYSTORY,sable & sable,9.5.2018,2,2,4
+ESSUNTASSUN,sable & tricolour,7.5.2018,2,2,4
+SUNSWEET,blue merle & tricolour,4.5.2018,1,2,3
+SUMMER RAIN,blue merle & tricolour,4.5.2018,4,0,4
+AMOR'JADE,sable & tricolour,3.5.2018,2,1,3
+DREAMHILL,sable & sable,29.4.2018,2,2,4
+SPRUCEVALLEYS,blue merle & tricolour,29.4.2018,2,1,3
+AQINTA'S,black and white & sable,27.4.2018,2,4,6
+PÄIVÄNPAISTEEN,sable & tricolour,26.4.2018,2,1,3
+MIGHTY DOGS,sable & sable,24.4.2018,4,2,6
+TRICKY BLUE'S,blue merle & tricolour,23.4.2018,3,2,5
+TAIKATUOKION,sable & sable,23.4.2018,1,1,2
+AMOROSAN,sable & sable,22.4.2018,2,0,2
+SUMMER RAIN,blue merle & tricolour,21.4.2018,3,1,4
+PELTSUN,sable & tricolour,21.4.2018,3,0,3
+BLUEMEADOW'S,sable & sable,19.4.2018,1,2,3
+BERNOBAN,blue merle & tricolour,19.4.2018,4,0,4
+KANGASVUOKON,sable & tricolour,14.4.2018,1,1,2
+ROSEBRIDGE'S,blue merle & tricolour,14.4.2018,1,1,2
+PIHLAJAPIRTIN,tricolour & tricolour,11.4.2018,1,0,1
+PIKIKUONON,blue merle & tricolour,10.4.2018,1,3,4
+,sable & tricolour,10.4.2018,2,2,4
+KAUNISSAAREN,tricolour & tricolour,8.4.2018,1,1,2
+HAPPY MASTER'S,sable & sable,8.4.2018,2,1,3
+KHIMAIRAN,black and white & blue merle,8.4.2018,3,0,3
+TARUAARTEEN,sable & tricolour,6.4.2018,0,2,2
+HAPPY MASTER'S,tricolour & tricolour,6.4.2018,1,2,3
+KYTÖKOSKEN,sable & sable,5.4.2018,3,2,5
+STARSONG,sable & tricolour,4.4.2018,3,0,3
+LEMIRA,blue merle & tricolour,3.4.2018,4,2,6
+SAMUWAYS,blue merle & tricolour,3.4.2018,2,2,4
+RONSHET'S,blue merle & tricolour,1.4.2018,3,0,3
+HELMIKUMMUN,blue merle & tricolour,1.4.2018,0,4,4
+PELTSUN,sable & tricolour,1.4.2018,3,1,4
+CELEBREN,blue merle & tricolour,30.3.2018,2,2,4
+SHEEPWHISPER'S,tricolour & tricolour,30.3.2018,0,4,4
+WOOLTWISTER'S,sable & tricolour,29.3.2018,2,3,5
+BLACK SHEPARD'S,black and white & blue merle,29.3.2018,0,1,1
+BERNOBAN,sable & tricolour,27.3.2018,0,2,2
+LEMMIKKIPOLUN,blue merle & tricolour,27.3.2018,2,1,3
+ABUNDANTIA'S,blue merle & tricolour,27.3.2018,1,2,3
+KAIKISTA KAUNEIN,sable & sable,27.3.2018,2,3,5
+BIGANDAN,blue merle & tricolour,26.3.2018,2,3,5
+SAAHIN,sable & sable,26.3.2018,1,1,2
+CELERITAS,blue merle & tricolour,25.3.2018,2,1,3
+AMARANTES,sable & sable,23.3.2018,1,2,3
+KAUNISSAAREN,tricolour & tricolour,23.3.2018,2,1,3
+SAMUWAYS,sable & sable,23.3.2018,1,4,5
+BIGANDAN,blue merle & tricolour,21.3.2018,3,1,4
+PILVIMARJAN,blue merle & tricolour,21.3.2018,3,3,6
+LINNAISTEN,sable & sable,20.3.2018,0,2,2
+BLUE RUMOR'S,sable & sable,18.3.2018,1,3,4
+SMARTTEAMS,blue merle & tricolour,18.3.2018,3,0,3
+SMARTTEAMS,tricolour & tricolour,17.3.2018,3,2,5
+KÄPYLAAKSON,black and white & tricolour,17.3.2018,3,2,5
+BERNOBAN,black and white & tricolour,16.3.2018,2,2,4
+MUTKIS,sable & tricolour,14.3.2018,3,0,3
+BRIDEMOOR'S,sable & sable,13.3.2018,0,3,3
+MINITIIMIN,sable & sable,10.3.2018,0,1,1
+PELTSUN,blue merle & tricolour,10.3.2018,2,3,5
+ZAZA'S,sable & sable,9.3.2018,2,0,2
+PILVIKUMMUN,blue merle & tricolour,9.3.2018,1,1,2
+BERNOBAN,black and white & blue merle,9.3.2018,1,2,3
+GWENDA,sable & sable,8.3.2018,3,1,4
+BLUEMEADOW'S,blue merle & tricolour,8.3.2018,1,1,2
+SILIMEN,blue merle & tricolour,6.3.2018,0,1,1
+SILIMEN,blue merle & tricolour,6.3.2018,1,2,3
+JEONAN,sable & tricolour,6.3.2018,3,2,5
+MARKHILL'S,sable & tricolour,5.3.2018,0,3,3
+MUTKIS,sable & tricolour,4.3.2018,2,3,5
+HELMILÄN,blue merle & tricolour,3.3.2018,3,0,3
+TOIVESADUN,sable & sable,2.3.2018,1,3,4
+KOIVUMEISTERIN,sable & sable,1.3.2018,1,1,2
+BOSOM BUDDY'S,blue merle & tricolour,28.2.2018,0,3,3
+PELTSUN,sable & tricolour,27.2.2018,3,0,3
+NICARO'N,sable & tricolour,26.2.2018,1,2,3
+BOMBASTIC,black and white & blue merle,25.2.2018,3,2,5
+DREAMLOOK,sable & tricolour,24.2.2018,2,1,3
+SMART MOVE,sable & tricolour,24.2.2018,1,2,3
+MINITIIMIN,blue merle & tricolour,24.2.2018,3,1,4
+SHADELAND,sable & tricolour,22.2.2018,4,1,5
+PIKIKUONON,sable & tricolour,22.2.2018,0,3,3
+BLACK CLASSIEL'S,blue merle & tricolour,21.2.2018,3,0,3
+SILVER GREMLINS,sable & sable,20.2.2018,2,2,4
+CLASSICWAY,blue merle & tricolour,19.2.2018,1,0,1
+CEREBELLUM'S,sable & tricolour,18.2.2018,4,1,5
+JEONAN,blue merle & tricolour,18.2.2018,2,1,3
+SHEGUR'N,black and white & blue merle,17.2.2018,4,2,6
+VILLANILLAN,black and white & blue merle,15.2.2018,2,2,4
+HALOILMIÖN,blue merle & tricolour,13.2.2018,2,3,5
+VIOLETDREAM,sable & sable,11.2.2018,2,2,4
+EILIFURIN,blue merle & null,10.2.2018,2,2,4
+PIKIKUONON,blue merle & tricolour,10.2.2018,1,2,3
+SHETFUN,sable & sable,8.2.2018,0,3,3
+PIKIKUONON,sable & sable,1.2.2018,1,1,2
+SUZI-DOG'S,blue merle & tricolour,1.2.2018,2,3,5
+BLACK SARA'S,blue merle & tricolour,31.1.2018,3,2,5
+SHET UP,blue merle & tricolour,30.1.2018,2,1,3
+ZETLAND'S,sable & sable,27.1.2018,1,1,2
+BERNOBAN,black and white & tricolour,26.1.2018,1,3,4
+MEI DAN,sable & tricolour,25.1.2018,1,2,3
+GOLDEN ROSE,blue merle & tricolour,23.1.2018,3,0,3
+REVONHÄNNÄN,sable & tricolour,20.1.2018,1,3,4
+BLENMOON,sable & tricolour,19.1.2018,1,2,3
+JAZZ,tricolour & tricolour,18.1.2018,1,3,4
+KUPSAKAN,blue merle & tricolour,18.1.2018,2,2,4
+ANYWAY,sable & sable,16.1.2018,2,3,5
+SHADELAND,blue merle & tricolour,12.1.2018,1,0,1
+ZETLAND'S,sable & sable,12.1.2018,1,0,1
+BLENMOON,sable & tricolour,11.1.2018,3,1,4
+SIMBELULUN,sable & tricolour,10.1.2018,1,0,1
+SHETWOOD,blue merle & tricolour,9.1.2018,2,0,2
+HUISIN,blue merle & tricolour,6.1.2018,2,5,7
+KHIMAIRAN,blue merle & tricolour,6.1.2018,2,1,3
+PRETTYLITTLE,blue merle & tricolour,6.1.2018,2,2,4
+FLAMING SNOW'S,black and white & sable,6.1.2018,2,4,6
+HUISIN,black and white & blue merle,2.1.2018,2,2,4
+HELSKON,sable & sable,27.12.2017,1,3,4
+KHIMAIRAN,sable & sable,27.12.2017,0,1,1
+DALIMATTAS,blue merle & tricolour,27.12.2017,1,1,2
+LINNAISTEN,blue merle & tricolour,17.12.2017,2,2,4
+HELSKON,sable & sable,16.12.2017,2,2,4
+KIVIVUOREN,blue merle & tricolour,16.12.2017,4,2,6
+SATULAAKSON,blue merle & tricolour,15.12.2017,2,2,4
+SAFIRASLIKE,sable & sable,13.12.2017,1,1,2
+SNOWGLOW'S,blue merle & tricolour,13.12.2017,3,1,4
+ELTSUN,blue merle & tricolour,13.12.2017,2,1,3
+KIVIVUOREN,tricolour & tricolour,9.12.2017,2,3,5
+CHILLY BREEZE,blue merle & tricolour,9.12.2017,2,2,4
+AMOROSAN,sable & tricolour,8.12.2017,1,1,2
+MY YANQUI'S,sable & tricolour,7.12.2017,1,0,1
+LÄHDERINTEEN,sable & sable,1.12.2017,2,3,5
+BERNOBAN,black and white & blue merle,30.11.2017,3,3,6
+SATULEHDON,sable & sable,28.11.2017,2,2,4
+ZETLAND'S,sable & tricolour,28.11.2017,6,1,7
+PÄÄTTYMÄTÖN,sable & tricolour,23.11.2017,2,4,6
+RIVERLINE,sable & tricolour,21.11.2017,1,0,1
+ONNENPISARAN,sable & sable,13.11.2017,1,0,1
+MILENNAS,black and white & blue merle,10.11.2017,2,1,3
+FROSTY NIGHT'S,blue merle & tricolour,26.10.2017,1,1,2
+ZETLAND'S,sable & sable,1.10.2017,1,1,2
+KÄPÄLÄMETSÄN,tricolour & tricolour,2.11.2017,3,4,7
+TULIHÄNNÄN,sable & tricolour,31.10.2017,1,1,2
+BUMTSI BUM,blue merle & tricolour,28.10.2017,1,4,5
+FULLMOON DIAMONDS,sable & tricolour,28.10.2017,1,1,2
+IHMETASSUN,black and white & blue merle,28.10.2017,2,1,3
+ZELMARIAN,blue merle & tricolour,26.10.2017,1,2,3
+BLUEMEADOW'S,blue merle & tricolour,26.10.2017,2,2,4
+WINDYDREAMS,blue merle & tricolour,22.10.2017,4,3,7
+MERRY MOONRAY'S,sable & tricolour,22.10.2017,1,1,2
+JEONAN,sable & sable,21.10.2017,2,2,4
+NICE TRY,sable & tricolour,21.10.2017,3,1,4
+DRAMA DONCELLA'S,sable & tricolour,18.10.2017,1,2,3
+BLACK SARA'S,sable & sable,15.10.2017,0,2,2
+BOSOM BUDDY'S,blue merle & tricolour,15.10.2017,3,1,4
+JASMIRIN,tricolour & tricolour,14.10.2017,4,1,5
+TULIHÄNNÄN,black and white & blue merle,11.10.2017,0,2,2
+PÄHKINÄPOLUN,blue merle & tricolour,11.10.2017,1,4,5
+HELMILÄN,black and white & blue merle,10.10.2017,1,2,3
+SUSADAN,blue merle & tricolour,10.10.2017,3,1,4
+NEAT DREAM,tricolour & tricolour,9.10.2017,1,2,3
+ANYWAY,blue merle & tricolour,9.10.2017,0,4,4
+ASTANJAN,blue merle & tricolour,8.10.2017,1,2,3
+,black and white & blue merle,4.10.2017,2,3,5
+COOL MELODY,sable & tricolour,2.10.2017,2,2,4
+DREAMLOOK,sable & sable,2.10.2017,0,2,2
+SHANDY'S,sable & tricolour,30.9.2017,0,3,3
+AMARANTES,blue merle & tricolour,30.9.2017,2,3,5
+PIKIKUONON,blue merle & tricolour,30.9.2017,0,3,3
+ANYWAY,sable & sable,30.9.2017,1,0,1
+DALIMATTAS,blue merle & tricolour,29.9.2017,2,1,3
+SHADOWMIST,sable & tricolour,29.9.2017,1,2,3
+SHET UP,blue merle & tricolour,23.9.2017,0,1,1
+PIKIKUONON,sable & sable,20.9.2017,3,1,4
+SUZI-DOG'S,sable & tricolour,19.9.2017,3,2,5
+TRICKY BLUE'S,blue merle & tricolour,18.9.2017,1,1,2
+GOLDEN ROSE,sable & tricolour,17.9.2017,3,2,5
+HELMILÄN,blue merle & tricolour,16.9.2017,2,1,3
+SHADELAND,blue merle & tricolour,16.9.2017,3,1,4
+LEMMIKKIPOLUN,sable & sable,15.9.2017,2,1,3
+PARADISEHILL,blue merle & tricolour,14.9.2017,1,4,5
+PÄHKINÄPOLUN,sable & sable,14.9.2017,3,1,4
+GOLDEN ROSE,blue merle & tricolour,13.9.2017,5,1,6
+TÄHTITOMUN,blue merle & tricolour,12.9.2017,2,2,4
+VILLANILLAN,blue merle & tricolour,10.9.2017,2,3,5
+RIVERLINE,blue merle & tricolour,10.9.2017,1,2,3
+PARADISEHILL,blue merle & tricolour,9.9.2017,2,2,4
+BLACK SHEPARD'S,black and white & blue merle,9.9.2017,1,1,2
+REVONHÄNNÄN,sable & sable,5.9.2017,2,0,2
+SNOWGLOW'S,tricolour & tricolour,5.9.2017,2,1,3
+CHEERFUL BLACK,sable & tricolour,4.9.2017,2,3,5
+STARSONG,sable & tricolour,4.9.2017,0,1,1
+BLENMOON,blue merle & tricolour,3.9.2017,1,1,2
+CHEERYMAI,tricolour & tricolour,3.9.2017,2,3,5
+DASH'ING,sable & sable,2.9.2017,0,1,1
+TULIHÄNNÄN,blue merle & tricolour,2.9.2017,3,3,6
+HELMENHALTIAN,blue merle & tricolour,31.8.2017,0,1,1
+BAYARIN,sable & tricolour,30.8.2017,4,3,7
+NOOPELIN,black and white & blue merle,29.8.2017,1,2,3
+PIKIKUONON,tricolour & tricolour,28.8.2017,3,1,4
+FOXITAR,sable & sable,27.8.2017,1,2,3
+NEAT DREAM,sable & sable,26.8.2017,3,2,5
+IHMETASSUN,sable & tricolour,25.8.2017,2,1,3
+SMARTTEAMS,sable & sable,25.8.2017,2,2,4
+PIKIKUONON,sable & tricolour,25.8.2017,1,0,1
+,blue merle & tricolour,24.8.2017,1,1,2
+BERNOBAN,black and white & sable,23.8.2017,1,2,3
+TAIKARANNAN,tricolour & tricolour,22.8.2017,0,2,2
+STARSONG,sable & tricolour,21.8.2017,3,2,5
+SHEEPWHISPER'S,sable & sable,20.8.2017,3,2,5
+BERNOBAN,blue merle & tricolour,20.8.2017,4,1,5
+LEMIRA,blue merle & tricolour,18.8.2017,4,0,4
+PYRYTUULEN,blue merle & tricolour,18.8.2017,1,0,1
+PILVIKIRSIKAN,sable & sable,14.8.2017,3,1,4
+ROSEBRIDGE'S,blue merle & tricolour,11.8.2017,0,3,3
+STARSONG,sable & sable,11.8.2017,1,1,2
+TAIKARANNAN,sable & tricolour,8.8.2017,1,4,5
+MEUKOW,black and white & blue merle,7.8.2017,2,2,4
+VARJOKLAANIN,black and white & blue merle,6.8.2017,2,4,6
+USVATAR,sable & sable,4.8.2017,0,2,2
+SHELEGIAN,sable & tricolour,4.8.2017,1,2,3
+LELLUKAN,blue merle & tricolour,3.8.2017,2,3,5
+KAIHOLAN,blue merle & tricolour,2.8.2017,2,2,4
+DASH'ING,blue merle & tricolour,2.8.2017,3,2,5
+CLASSICWAY,sable & sable,31.7.2017,1,0,1
+LINNAISTEN,sable & tricolour,31.7.2017,4,0,4
+PIKKUPAIMENEN,sable & sable,30.7.2017,1,4,5
+GONNABE,black and white & sable,30.7.2017,2,2,4
+KÄPÄLÄKOPLAN,black and white & tricolour,30.7.2017,3,1,4
+LUSIAN,sable & sable,29.7.2017,2,4,6
+NAPPULAVAARAN,blue merle & tricolour,29.7.2017,3,1,4
+CELEBREN,blue merle & tricolour,28.7.2017,2,3,5
+SIMBELULUN,sable & tricolour,26.7.2017,3,2,5
+KIITÄJÄN,sable & sable,26.7.2017,1,0,1
+BRIDEMOOR'S,sable & sable,26.7.2017,0,1,1
+NICARO'N,blue merle & tricolour,24.7.2017,2,2,4
+SIMBELULUN,sable & tricolour,23.7.2017,1,2,3
+PIKIKUONON,blue merle & tricolour,20.7.2017,2,5,7
+ROSEBRIDGE'S,blue merle & tricolour,19.7.2017,0,3,3
+SUSADAN,blue merle & tricolour,13.7.2017,4,1,5
+,sable & sable,13.7.2017,1,2,3
+WHIRLING'S,sable & sable,12.7.2017,0,3,3
+NICE TRY,sable & sable,11.7.2017,2,2,4
+BOSOM BUDDY'S,blue merle & tricolour,10.7.2017,2,1,3
+BERNOBAN,black and white & black and white,9.7.2017,4,1,5
+MARKHILL'S,sable & sable,9.7.2017,2,1,3
+SHADOWMIST,sable & sable,8.7.2017,1,0,1
+ZETLAND'S,sable & sable,7.7.2017,3,2,5
+WHIRLING'S,sable & tricolour,7.7.2017,0,2,2
+MYHAPPINESS,blue merle & tricolour,7.7.2017,2,2,4
+PIUNPAUN,sable & tricolour,5.7.2017,1,4,5
+,blue merle & tricolour,5.7.2017,1,2,3
+JÄPÄLÄN,black and white & sable,4.7.2017,4,2,6
+MINIKIITÄJÄN,sable & tricolour,28.6.2017,1,0,1
+SAMMALMETSÄN,sable & sable,28.6.2017,1,1,2
+KARHUVELJEN,black and white & sable,27.6.2017,2,1,3
+KAUNISSAAREN,tricolour & tricolour,27.6.2017,2,2,4
+SINIKETUN,sable & sable,26.6.2017,2,1,3
+FROSTY NIGHT'S,blue merle & tricolour,26.6.2017,1,2,3
+METSÄVAARAN,sable & tricolour,25.6.2017,0,2,2
+ZELMARIAN,blue merle & tricolour,24.6.2017,0,1,1
+NEITI NÄPPÄRÄN,blue merle & tricolour,24.6.2017,0,3,3
+BLUEMEADOW'S,blue merle & tricolour,23.6.2017,3,1,4
+BERNOBAN,black and white & sable,22.6.2017,2,2,4
+BUSTLING'S,black and white & blue merle,22.6.2017,1,2,3
+SHADELAND,tricolour & tricolour,20.6.2017,1,1,2
+KAMAJAKIN,blue merle & tricolour,20.6.2017,2,3,5
+JAGASAR,blue merle & tricolour,19.6.2017,4,1,5
+KAITAKUONON,blue merle & tricolour,16.6.2017,1,2,3
+CARDIWE'S,blue merle & tricolour,15.6.2017,3,5,8
+AMOR'JADE,sable & tricolour,15.6.2017,3,5,8
+BERNOBAN,blue merle & tricolour,14.6.2017,0,1,1
+,sable & tricolour,13.6.2017,2,2,4
+ZELMARIAN,black and white & blue merle,9.6.2017,2,3,5
+,sable & tricolour,5.6.2017,6,1,7
+SERANNAN,tricolour & tricolour,3.6.2017,2,4,6
+MUTATASSUN,sable & tricolour,2.6.2017,1,4,5
+MERRY MOONRAY'S,blue merle & tricolour,30.5.2017,1,3,4
+TOIVESADUN,sable & sable,29.5.2017,0,1,1
+KÄPYLAAKSON,black and white & tricolour,29.5.2017,2,1,3
+ANGRY BRIGADE'S,black and white & blue merle,28.5.2017,5,2,7
+BLUEMEADOW'S,sable & tricolour,27.5.2017,0,4,4
+SHEEPWHISPER'S,sable & tricolour,24.5.2017,3,0,3
+LYSTI-KÄMÄ,blue merle & tricolour,21.5.2017,1,4,5
+HELMIKUMMUN,blue merle & tricolour,20.5.2017,2,2,4
+TOIVEIDEN,tricolour & tricolour,19.5.2017,1,1,2
+LUONNIKKAAN,tricolour & tricolour,17.5.2017,0,1,1
+AGARWAEN,tricolour & tricolour,12.5.2017,2,0,2
+AR'TFULFOX'S,blue merle & tricolour,9.5.2017,3,0,3
+ABUNDANTIA'S,blue merle & tricolour,7.5.2017,1,2,3
+KULTALAN,blue merle & tricolour,7.5.2017,2,1,3
+PELTSUN,sable & tricolour,6.5.2017,2,2,4
+KARVAKEDON,sable & tricolour,5.5.2017,3,2,5
+BLENMOON,sable & tricolour,5.5.2017,1,1,2
+REVONHÄNNÄN,sable & tricolour,5.5.2017,5,0,5
+MANSIKKAKUJAN,blue merle & tricolour,5.5.2017,1,5,6
+BLENMOON,sable & sable,3.5.2017,1,1,2
+LELLUKAN,black and white & blue merle,3.5.2017,2,1,3
+MUSTAN HELMEN,blue merle & tricolour,3.5.2017,0,1,1
+BUMTSI BUM,blue merle & tricolour,1.5.2017,3,1,4
+BLACK SARA'S,sable & sable,29.4.2017,3,1,4
+HUNAJATASSUN,sable & sable,29.4.2017,1,3,4
+COPYSTYLE,blue merle & tricolour,28.4.2017,2,2,4
+PILVIMARJAN,blue merle & tricolour,27.4.2017,1,4,5
+LÄHDERINTEEN,sable & sable,26.4.2017,3,2,5
+PIKIKUONON,blue merle & tricolour,26.4.2017,1,3,4
+PELTSUN,sable & sable,24.4.2017,1,1,2
+PIKIKUONON,blue merle & tricolour,24.4.2017,2,3,5
+USVAPILVEN,blue merle & tricolour,24.4.2017,0,1,1
+PIKIKUONON,blue merle & tricolour,23.4.2017,1,1,2
+MUSTAN HELMEN,sable & tricolour,21.4.2017,4,1,5
+SHETWOOD,black and white & tricolour,20.4.2017,2,2,4
+AMOR'JADE,blue merle & tricolour,19.4.2017,3,1,4
+JEONAN,blue merle & tricolour,19.4.2017,3,1,4
+PIRPANAN,sable & tricolour,18.4.2017,3,4,7
+ANNSPETS,black and white & blue merle,16.4.2017,0,2,2
+FUUFAN,sable & tricolour,16.4.2017,1,1,2
+AMANSTELL,sable & tricolour,14.4.2017,0,4,4
+KARAATIN,sable & sable,14.4.2017,1,1,2
+TUULIRINTEEN,black and white & blue merle,10.4.2017,1,2,3
+AHOVIRRAN,sable & sable,10.4.2017,1,1,2
+ANYWAY,sable & sable,9.4.2017,2,4,6
+BLUEMEADOW'S,sable & sable,8.4.2017,2,1,3
+BOMBASTIC,black and white & blue merle,8.4.2017,1,3,4
+GOLDEN ROSE,blue merle & tricolour,7.4.2017,1,3,4
+GOLDEN ROSE,tricolour & tricolour,7.4.2017,0,3,3
+SILIMEN,blue merle & tricolour,7.4.2017,1,0,1
+SILIMEN,blue merle & tricolour,7.4.2017,1,2,3
+MERRY MOONRAY'S,blue merle & tricolour,6.4.2017,2,0,2
+JEONAN,blue merle & tricolour,4.4.2017,2,3,5
+FULLMOON DIAMONDS,blue merle & tricolour,3.4.2017,4,0,4
+MUSTANTASSUN,sable & sable,2.4.2017,2,2,4
+ESMARI,sable & sable,2.4.2017,1,2,3
+SLEEPLESS,tricolour & tricolour,1.4.2017,2,0,2
+MARINE SLOPES,blue merle & tricolour,30.3.2017,2,2,4
+MINTOLAN,sable & sable,29.3.2017,2,2,4
+DREAMLOOK,blue merle & tricolour,29.3.2017,2,2,4
+GOLDEN ROSE,blue merle & tricolour,28.3.2017,1,3,4
+KIVIHIILEN,blue merle & tricolour,27.3.2017,2,0,2
+DEEP ILLUSION'S,sable & tricolour,27.3.2017,1,1,2
+STELLINA SWEETS,sable & sable,24.3.2017,1,3,4
+YAZINA'S,sable & sable,23.3.2017,1,3,4
+BERNOBAN,black and white & sable,21.3.2017,0,3,3
+PÄHKINÄPOLUN,blue merle & tricolour,21.3.2017,1,2,3
+FLAMING SNOW'S,sable & tricolour,21.3.2017,3,3,6
+TÄHTIHOVIN,sable & sable,20.3.2017,1,2,3
+HOPEALEHDEN,sable & sable,20.3.2017,2,1,3
+SNOWPAW,tricolour & tricolour,18.3.2017,2,0,2
+NOOPELIN,black and white & blue merle,16.3.2017,1,2,3
+SINIKETUN,sable & tricolour,15.3.2017,1,2,3
+HELMILÄN,sable & sable,15.3.2017,3,5,8
+MERRY MOONRAY'S,sable & sable,11.3.2017,2,1,3
+JEONAN,tricolour & tricolour,11.3.2017,3,3,6
+HUISIN,blue merle & tricolour,10.3.2017,4,2,6
+GOLDEN ROSE,blue merle & tricolour,8.3.2017,1,2,3
+MUTKIS,sable & tricolour,7.3.2017,0,3,3
+SUSADAN,blue merle & tricolour,6.3.2017,1,2,3
+,sable & sable,5.3.2017,1,4,5
+MÄNNYNKÄVYN,sable & sable,4.3.2017,1,1,2
+KAIKUKURUN,sable & tricolour,4.3.2017,2,1,3
+LINNAISTEN,blue merle & tricolour,4.3.2017,1,2,3
+KUUNHOHTEEN,blue merle & tricolour,4.3.2017,1,1,2
+KEPPOSEN,sable & sable,1.3.2017,3,2,5
+,sable & sable,26.2.2017,3,0,3
+,sable & sable,23.2.2017,1,2,3
+TÄHTITOMUN,sable & tricolour,22.2.2017,0,1,1
+KANGASVUOKON,blue merle & tricolour,22.2.2017,2,1,3
+AQINTA'S,black and white & sable,21.2.2017,0,1,1
+DREAMHILL,sable & tricolour,21.2.2017,1,2,3
+LINNAISTEN,blue merle & tricolour,20.2.2017,2,3,5
+TÄHTIHOVIN,sable & sable,20.2.2017,2,1,3
+TOIVESADUN,sable & sable,17.2.2017,2,1,3
+STARSONG,blue merle & tricolour,15.2.2017,0,2,2
+AMANDIINA'S,sable & sable,14.2.2017,1,0,1
+KETTURETKU,sable & sable,14.2.2017,2,1,3
+ATAMANIN,blue merle & tricolour,10.2.2017,3,2,5
+MYHAPPINESS,sable & sable,7.2.2017,3,0,3
+MIGHTY DOGS,sable & sable,7.2.2017,2,3,5
+KIITÄJÄN,sable & sable,3.2.2017,2,3,5
+PELTSUN,sable & sable,2.2.2017,2,1,3
+SILIMEN,blue merle & tricolour,30.1.2017,0,4,4
+SUSADAN,blue merle & tricolour,29.1.2017,2,1,3
+MARMOTINA,black and white & tricolour,29.1.2017,1,2,3
+BERNOBAN,sable & tricolour,29.1.2017,2,3,5
+BLENMOON,sable & sable,28.1.2017,2,1,3
+COOL MELODY,sable & sable,27.1.2017,3,0,3
+WOOLTWISTER'S,sable & sable,27.1.2017,3,2,5
+AGARWAEN,blue merle & tricolour,24.1.2017,2,2,4
+MILENNAS,sable & tricolour,20.1.2017,3,2,5
+KHIMAIRAN,blue merle & tricolour,18.1.2017,2,2,4
+PÄIVÄNPAISTEEN,blue merle & tricolour,16.1.2017,5,1,6
+GWENDA,sable & sable,15.1.2017,3,3,6
+NAPPULAVAARAN,blue merle & tricolour,12.1.2017,1,0,1
+MANDANINA'S,sable & tricolour,11.1.2017,0,2,2
+CELERITAS,blue merle & tricolour,11.1.2017,1,2,3
+LITTLESCARLET'S,sable & sable,10.1.2017,2,0,2
+BLENMOON,sable & tricolour,9.1.2017,2,2,4
+MUTKIS,sable & tricolour,8.1.2017,4,1,5
+GWENDA,sable & tricolour,7.1.2017,1,3,4
+KAUNISSAAREN,blue merle & tricolour,6.1.2017,1,1,2
+PIKIKUONON,sable & sable,6.1.2017,2,2,4
+SNOWGLOW'S,blue merle & tricolour,5.1.2017,3,2,5
+KÄPÄLÄKOPLAN,blue merle & tricolour,5.1.2017,1,1,2
+BERNOBAN,black and white & sable,3.1.2017,2,3,5
+TODAY'S,blue merle & tricolour,2.1.2017,2,2,4
+PÄIVÄNPAISTEEN,tricolour & tricolour,2.1.2017,0,2,2
+FLAMING SNOW'S,blue merle & tricolour,2.1.2017,4,3,7
+,black and white & blue merle,1.1.2017,1,2,3
+STARSONG,sable & sable,28.12.2016,2,3,5
+,sable & sable,26.12.2016,0,1,1
+SMARTTEAMS,black and white & blue merle,25.12.2016,4,1,5
+MINTOLAN,blue merle & tricolour,23.12.2016,1,1,2
+BLENMOON,sable & sable,21.12.2016,1,0,1
+TULIHÄNNÄN,blue merle & tricolour,17.12.2016,1,0,1
+PELTSUN,sable & sable,17.12.2016,1,1,2
+AMARANTES,blue merle & tricolour,17.12.2016,1,2,3
+RIVERLINE,blue merle & tricolour,9.12.2016,3,2,5
+PIKIKUONON,blue merle & tricolour,8.12.2016,1,3,4
+BERNOBAN,black and white & tricolour,8.12.2016,2,3,5
+KAUNISSAAREN,sable & tricolour,5.12.2016,1,2,3
+BUMTSI BUM,blue merle & tricolour,3.12.2016,3,4,7
+ROSEBRIDGE'S,sable & sable,3.12.2016,0,2,2
+PARSIALAN,sable & tricolour,2.12.2016,2,1,3
+HAPPY MASTER'S,sable & sable,2.12.2016,1,0,1
+EILIFURIN,sable & sable,29.11.2016,2,2,4
+SHEGUR'N,blue merle & tricolour,28.11.2016,4,0,4
+EILIFURIN,blue merle & null,27.11.2016,2,0,2
+FULLMOON DIAMONDS,blue merle & tricolour,25.11.2016,4,1,5
+KARION,blue merle & tricolour,24.11.2016,2,1,3
+ZETLAND'S,sable & sable,19.11.2016,1,2,3
+FIRABELLEN,blue merle & tricolour,15.11.2016,3,1,4
+KÄPÄLÄKOPLAN,blue merle & tricolour,8.11.2016,3,0,3
+PIKIKUONON,black and white & sable,27.10.2016,3,1,4
+KÄPÄLÄKOPLAN,blue merle & tricolour,1.10.2016,4,0,4
+AMOR'JADE,sable & sable,27.5.2016,3,1,4
+NEW SPICES,blue merle & tricolour,24.11.2016,2,2,4
+ANYWAY,sable & sable,21.11.2016,4,1,5
+AMARANTES,blue merle & tricolour,18.11.2016,4,1,5
+JELISAN,blue merle & tricolour,4.11.2016,0,4,4
+HELSKON,sable & sable,3.11.2016,1,1,2
+VILLANILLAN,black and white & blue merle,2.11.2016,2,0,2
+JEONAN,sable & sable,1.11.2016,3,0,3
+BACKYARD'S FELLOWS,blue merle & tricolour,30.10.2016,2,2,4
+LEMMIKKIPOLUN,sable & sable,30.10.2016,0,1,1
+IHMETASSUN,sable & sable,24.10.2016,3,2,5
+HALOILMIÖN,sable & sable,24.10.2016,2,2,4
+LYSTI-KÄMÄ,blue merle & tricolour,17.10.2016,1,0,1
+SNOWGLOW'S,tricolour & tricolour,16.10.2016,1,3,4
+SATULINNAN,sable & tricolour,15.10.2016,0,3,3
+TÄHTITOMUN,blue merle & tricolour,9.10.2016,2,3,5
+CLASSICWAY,sable & sable,8.10.2016,0,1,1
+BOSOM BUDDY'S,sable & sable,8.10.2016,0,2,2
+MUSTAN HELMEN,null & tricolour,8.10.2016,0,3,3
+VICWAY,black and white & sable,8.10.2016,1,3,4
+LÄHDERINTEEN,sable & sable,7.10.2016,1,3,4
+PELTSUN,blue merle & tricolour,4.10.2016,2,3,5
+ANGRY BRIGADE'S,black and white & blue merle,4.10.2016,2,1,3
+LÄHDERINTEEN,sable & sable,1.10.2016,1,0,1
+LEMMIKKIPOLUN,blue merle & tricolour,30.9.2016,1,3,4
+KÄPÄLÄMETSÄN,black and white & blue merle,28.9.2016,4,4,8
+MORNING DEW'S,tricolour & tricolour,28.9.2016,2,5,7
+MYSTICA LINE,blue merle & tricolour,28.9.2016,2,3,5
+SHADELAND,sable & tricolour,28.9.2016,0,1,1
+BERNOBAN,black and white & sable,23.9.2016,1,3,4
+PELTSUN,sable & tricolour,23.9.2016,3,1,4
+BERNOBAN,black and white & tricolour,22.9.2016,3,2,5
+ONNENPISARAN,sable & sable,22.9.2016,2,2,4
+MORNING DEW'S,tricolour & tricolour,21.9.2016,3,2,5
+PELTSUN,sable & sable,19.9.2016,3,1,4
+NE REP,blue merle & null,19.9.2016,0,1,1
+ESMARI,sable & tricolour,17.9.2016,1,1,2
+MATTEIJAS,sable & tricolour,15.9.2016,2,3,5
+TAIKAPENNIN,black and white & blue merle,14.9.2016,1,4,5
+PELTSUN,sable & tricolour,13.9.2016,0,2,2
+DASH'ING,sable & sable,11.9.2016,2,0,2
+TAIKATUOKION,sable & sable,11.9.2016,1,2,3
+TAIKATUOKION,blue merle & tricolour,8.9.2016,1,2,3
+DALIMATTAS,blue merle & tricolour,8.9.2016,2,2,4
+ZELMARIAN,black and white & blue merle,6.9.2016,3,2,5
+KHIMAIRAN,blue merle & tricolour,5.9.2016,2,0,2
+ZAZA'S,sable & sable,5.9.2016,2,2,4
+DREAMLOOK,sable & sable,5.9.2016,1,0,1
+SNOWGLOW'S,sable & tricolour,2.9.2016,1,0,1
+,sable & tricolour,1.9.2016,1,3,4
+BLACK SARA'S,blue merle & tricolour,1.9.2016,2,0,2
+BERNOBAN,black and white & blue merle,30.8.2016,2,1,3
+COPYSTYLE,sable & tricolour,24.8.2016,1,1,2
+DREAMLOOK,sable & sable,23.8.2016,2,2,4
+PAIMENTYTON,tricolour & tricolour,22.8.2016,1,2,3
+SHADOWMIST,sable & sable,22.8.2016,3,0,3
+TARUAARTEEN,blue merle & tricolour,22.8.2016,1,1,2
+NICARO'N,blue merle & tricolour,17.8.2016,1,2,3
+SUNSWEET,sable & sable,16.8.2016,2,4,6
+NAPPULAVAARAN,sable & tricolour,15.8.2016,2,1,3
+SINISILKIN,blue merle & null,13.8.2016,1,1,2
+SHADELAND,sable & tricolour,13.8.2016,1,1,2
+PIUNPAUN,sable & sable,12.8.2016,4,3,7
+BLACK CLASSIEL'S,black and white & blue merle,12.8.2016,2,2,4
+GOLDEN ROSE,sable & sable,7.8.2016,1,3,4
+SOIDINAHON,sable & sable,7.8.2016,0,1,1
+SNOWGLOW'S,blue merle & tricolour,7.8.2016,1,2,3
+,sable & tricolour,4.8.2016,1,0,1
+GOLDEN ROSE,sable & tricolour,4.8.2016,0,4,4
+BUMTSI BUM,blue merle & tricolour,28.7.2016,3,0,3
+ANYWAY,sable & tricolour,25.7.2016,1,4,5
+DEWMEADOWS,blue merle & tricolour,24.7.2016,1,2,3
+,sable & sable,23.7.2016,2,2,4
+ANYWAY,blue merle & tricolour,22.7.2016,2,0,2
+SNOWPAW,sable & sable,21.7.2016,3,2,5
+ABUNDANTIA'S,blue merle & tricolour,21.7.2016,2,1,3
+SILIMEN,blue merle & tricolour,18.7.2016,0,2,2
+KARTIOSUMUN,blue merle & tricolour,15.7.2016,1,4,5
+DASH'ING,sable & sable,14.7.2016,1,2,3
+ELTSUN,blue merle & tricolour,14.7.2016,3,1,4
+BERNOBAN,blue merle & tricolour,14.7.2016,2,0,2
+TRICKY BLUE'S,blue merle & tricolour,14.7.2016,2,4,6
+SILIMEN,blue merle & tricolour,9.7.2016,3,0,3
+SAMUWAYS,sable & tricolour,9.7.2016,2,1,3
+ROSEBRIDGE'S,blue merle & tricolour,4.7.2016,1,2,3
+SHET UP,sable & tricolour,2.7.2016,1,4,5
+DREAMHILL,sable & sable,2.7.2016,3,2,5
+AMARANTES,blue merle & tricolour,2.7.2016,2,1,3
+MYHAPPINESS,blue merle & tricolour,1.7.2016,1,0,1
+AMOR'JADE,sable & sable,30.6.2016,3,1,4
+AMOR'JADE,sable & sable,30.6.2016,0,2,2
+SIMBELULUN,sable & sable,27.6.2016,3,1,4
+FULLMOON DIAMONDS,sable & tricolour,26.6.2016,0,1,1
+SHANDY'S,sable & sable,25.6.2016,1,2,3
+BLUEMEADOW'S,sable & tricolour,25.6.2016,2,4,6
+CHEERFUL BLACK,sable & tricolour,24.6.2016,3,3,6
+HELMILÄN,blue merle & tricolour,24.6.2016,0,5,5
+PÄHKINÄPOLUN,blue merle & tricolour,22.6.2016,2,3,5
+KUUNHOHTEEN,blue merle & tricolour,21.6.2016,3,2,5
+TAIKARANNAN,sable & tricolour,20.6.2016,1,2,3
+FOXITAR,sable & sable,19.6.2016,2,2,4
+TULIHÄNNÄN,blue merle & tricolour,19.6.2016,0,4,4
+BERNOBAN,blue merle & tricolour,16.6.2016,0,1,1
+FULLMOON DIAMONDS,sable & tricolour,15.6.2016,1,2,3
+PRINSESSALINNAN,sable & sable,14.6.2016,0,2,2
+SATULAAKSON,sable & tricolour,12.6.2016,3,2,5
+TRICKTEAM,sable & sable,12.6.2016,1,2,3
+KIEVRADUV'VA,blue merle & tricolour,12.6.2016,3,2,5
+TAIKARANNAN,blue merle & sable,11.6.2016,3,1,4
+KARION,sable & tricolour,10.6.2016,2,0,2
+MINIMEGA'S,sable & sable,8.6.2016,1,1,2
+BLENMOON,sable & sable,6.6.2016,2,1,3
+ZETLAND'S,sable & sable,6.6.2016,4,1,5
+JEONAN,null & sable,5.6.2016,2,1,3
+BLENMOON,blue merle & tricolour,4.6.2016,2,2,4
+BUMTSI BUM,blue merle & tricolour,3.6.2016,3,2,5
+FURRY HAVEN,blue merle & tricolour,31.5.2016,2,2,4
+SHET UP,blue merle & tricolour,31.5.2016,3,2,5
+PILVIKUMMUN,blue merle & tricolour,31.5.2016,2,3,5
+MUTKIS,sable & tricolour,31.5.2016,1,1,2
+GWENDA,sable & sable,29.5.2016,3,1,4
+CINNATESS,sable & sable,28.5.2016,1,1,2
+,blue merle & tricolour,26.5.2016,2,1,3
+KARION,sable & tricolour,25.5.2016,2,0,2
+HALOILMIÖN,sable & tricolour,25.5.2016,3,1,4
+AMARANTES,sable & tricolour,21.5.2016,1,2,3
+SMARTTEAMS,sable & sable,20.5.2016,1,1,2
+JEONAN,sable & sable,19.5.2016,1,2,3
+KIVIVUOREN,sable & tricolour,18.5.2016,2,3,5
+BLACK SARA'S,sable & tricolour,18.5.2016,1,0,1
+BRIDEMOOR'S,blue merle & tricolour,17.5.2016,3,1,4
+SLEEPLESS,blue merle & tricolour,17.5.2016,0,2,2
+TROUBLE-FREE,blue merle & tricolour,16.5.2016,3,2,5
+KAMAJAKIN,black and white & blue merle,14.5.2016,4,0,4
+JOYSTORY,sable & tricolour,12.5.2016,1,2,3
+VILLANILLAN,black and white & blue merle,10.5.2016,5,1,6
+LOONEY TOONIE'S,sable & sable,8.5.2016,3,1,4
+SATULINNAN,sable & sable,8.5.2016,2,2,4
+PIKIKUONON,sable & tricolour,8.5.2016,2,1,3
+JAZZ,blue merle & tricolour,8.5.2016,1,0,1
+VIOLETDREAM,sable & sable,6.5.2016,1,1,2
+HUISIN,blue merle & tricolour,6.5.2016,2,2,4
+FREUDENBRINGER,blue merle & tricolour,5.5.2016,1,2,3
+WANNADREAM'S,blue merle & tricolour,4.5.2016,2,2,4
+BERNOBAN,black and white & blue merle,3.5.2016,0,1,1
+JAGASAR,blue merle & tricolour,3.5.2016,1,3,4
+SATULINNAN,sable & sable,2.5.2016,1,1,2
+HELSKON,sable & sable,1.5.2016,2,0,2
+ROSEBRIDGE'S,blue merle & tricolour,1.5.2016,3,1,4
+KHIMAIRAN,blue merle & tricolour,1.5.2016,1,0,1
+KAMAJAKIN,black and white & blue merle,30.4.2016,1,1,2
+SHELMIAN,sable & sable,29.4.2016,0,1,1
+VIOLETDREAM,sable & tricolour,28.4.2016,1,4,5
+BLUEMEADOW'S,sable & sable,25.4.2016,0,2,2
+BOSOM BUDDY'S,blue merle & tricolour,23.4.2016,1,3,4
+NEKAROS,sable & tricolour,23.4.2016,0,2,2
+GOLDEN ROSE,blue merle & tricolour,22.4.2016,0,5,5
+NICARO'N,blue merle & tricolour,20.4.2016,3,1,4
+CLASSICWAY,sable & sable,20.4.2016,1,0,1
+KEPPOSEN,sable & sable,19.4.2016,2,2,4
+BRIDEMOOR'S,sable & sable,19.4.2016,4,1,5
+PARADISEHILL,blue merle & tricolour,17.4.2016,1,2,3
+SUNSWEET,sable & sable,17.4.2016,1,3,4
+TÄHTIHOVIN,sable & sable,15.4.2016,1,3,4
+METSÄVAARAN,sable & tricolour,14.4.2016,1,1,2
+ISO-TIIRIKAN,sable & tricolour,13.4.2016,3,1,4
+MINITIIMIN,sable & tricolour,13.4.2016,1,2,3
+SATULEHDON,sable & sable,13.4.2016,1,1,2
+DRAMA DONCELLA'S,sable & sable,11.4.2016,1,1,2
+KULTALAN,sable & sable,10.4.2016,5,1,6
+SERANNAN,blue merle & tricolour,10.4.2016,1,1,2
+AMARANTES,blue merle & tricolour,9.4.2016,2,0,2
+ZELMARIAN,black and white & blue merle,9.4.2016,1,4,5
+PIKIKUONON,sable & tricolour,8.4.2016,2,0,2
+PELTSUN,sable & tricolour,8.4.2016,0,1,1
+TOFFYTAIL,sable & sable,7.4.2016,2,2,4
+SHADOWMIST,sable & tricolour,7.4.2016,1,0,1
+SUNSWEET,blue merle & tricolour,4.4.2016,3,3,6
+TASKUDYYKKARIN,sable & tricolour,4.4.2016,3,2,5
+TRICKY BLUE'S,blue merle & tricolour,3.4.2016,4,2,6
+LÄHDERINTEEN,sable & sable,3.4.2016,0,1,1
+SMARTTEAMS,black and white & sable,2.4.2016,0,2,2
+DEWMEADOWS,sable & sable,31.3.2016,0,2,2
+LEMMIKKIPOLUN,blue merle & tricolour,31.3.2016,0,1,1
+TOIVESADUN,sable & tricolour,30.3.2016,2,3,5
+MUSTANQUUN,sable & tricolour,30.3.2016,2,1,3
+KAUNISSAAREN,blue merle & tricolour,28.3.2016,1,4,5
+PELTSUN,sable & sable,26.3.2016,1,1,2
+HALOGEENIN,blue merle & null,23.3.2016,1,4,5
+ANYWAY,sable & tricolour,22.3.2016,1,2,3
+ABUNDANTIA'S,blue merle & tricolour,21.3.2016,1,1,2
+SIMBELULUN,sable & sable,18.3.2016,0,4,4
+BLUEMEADOW'S,blue merle & tricolour,16.3.2016,2,1,3
+LARINKALLION,sable & sable,16.3.2016,1,3,4
+JAPON,sable & sable,14.3.2016,4,1,5
+SHEGUR'N,blue merle & tricolour,12.3.2016,1,1,2
+BERNOBAN,black and white & sable,11.3.2016,1,3,4
+PIKIKUONON,sable & tricolour,11.3.2016,4,1,5
+BIGANDAN,blue merle & tricolour,11.3.2016,1,1,2
+NEAT DREAM,sable & tricolour,10.3.2016,2,1,3
+ATAMANIN,blue merle & tricolour,7.3.2016,3,3,6
+LOONEY TOONIE'S,sable & sable,4.3.2016,1,0,1
+ZELMARIAN,black and white & blue merle,2.3.2016,0,6,6
+TAIKATUOKION,sable & sable,2.3.2016,2,1,3
+BERNOBAN,black and white & black and white,2.3.2016,2,1,3
+KAUNISSAAREN,tricolour & tricolour,2.3.2016,3,1,4
+GWENDA,sable & tricolour,1.3.2016,4,0,4
+,sable & sable,1.3.2016,2,0,2
+USVATAR,sable & sable,27.2.2016,2,1,3
+ONNENPISARAN,sable & sable,27.2.2016,1,1,2
+GOLDEN ROSE,blue merle & tricolour,25.2.2016,2,1,3
+HEYLET'S,sable & sable,25.2.2016,0,1,1
+KÄPÄLÄMETSÄN,sable & tricolour,21.2.2016,4,1,5
+BLACK SARA'S,sable & sable,18.2.2016,1,1,2
+BLUEMEADOW'S,blue merle & tricolour,18.2.2016,3,2,5
+SNOWPAW,blue merle & tricolour,16.2.2016,3,2,5
+SUMMER RAIN,blue merle & tricolour,16.2.2016,3,2,5
+,tricolour & tricolour,14.2.2016,1,0,1
+GWENDA,sable & sable,7.2.2016,1,0,1
+KIITÄJÄN,sable & sable,6.2.2016,1,3,4
+SUNSWEET,blue merle & tricolour,6.2.2016,3,0,3
+DASH'ING,blue merle & tricolour,6.2.2016,4,1,5
+HELMILÄN,blue merle & tricolour,3.2.2016,1,2,3
+MINTOLAN,sable & sable,1.2.2016,2,1,3
+KILPOP,sable & tricolour,1.2.2016,1,1,2
+REVONHÄNNÄN,blue merle & tricolour,26.1.2016,2,0,2
+SHADELAND,tricolour & tricolour,22.1.2016,1,2,3
+PIRPANAN,blue merle & tricolour,21.1.2016,4,2,6
+BLUETRICS,sable & tricolour,21.1.2016,3,2,5
+SUSADAN,sable & tricolour,20.1.2016,0,3,3
+AMOROSAN,tricolour & tricolour,15.1.2016,1,0,1
+BLACK SHEPARD'S,tricolour & tricolour,13.1.2016,1,2,3
+HELMILÄN,sable & sable,11.1.2016,6,1,7
+BERNOBAN,blue merle & tricolour,4.1.2016,1,3,4
+LINNAISTEN,sable & sable,4.1.2016,0,2,2
+MINTOLAN,blue merle & tricolour,1.1.2016,0,2,2
+CLOUDGARDEN'S,blue merle & tricolour,31.12.2015,4,1,5
+PÄHKINÄPOLUN,blue merle & tricolour,30.12.2015,1,2,3
+SNOWGLOW'S,sable & tricolour,29.12.2015,3,0,3
+AMARANTES,blue merle & tricolour,29.12.2015,1,1,2
+UNEKSIJAN,blue merle & tricolour,28.12.2015,0,1,1
+LOONEY TOONIE'S,null & tricolour,25.12.2015,2,2,4
+,blue merle & tricolour,22.12.2015,1,0,1
+PIKIKUONON,blue merle & tricolour,21.12.2015,3,1,4
+PÄÄTTYMÄTÖN,sable & tricolour,19.12.2015,2,1,3
+MYHAPPINESS,sable & sable,17.12.2015,0,3,3
+,sable & tricolour,13.12.2015,0,1,1
+ANYWAY,blue merle & tricolour,12.12.2015,1,0,1
+GOLDEN ROSE,blue merle & tricolour,11.12.2015,2,2,4
+DASH'ING,blue merle & tricolour,5.12.2015,3,3,6
+BUMTSI BUM,blue merle & tricolour,4.12.2015,6,1,7
+READYSETGO,blue merle & tricolour,1.12.2015,3,1,4
+JASMIRIN,blue merle & tricolour,1.12.2015,3,3,6
+PELTSUN,blue merle & tricolour,1.12.2015,0,4,4
+ZETLAND'S,sable & sable,29.11.2015,3,1,4
+PELTSUN,sable & sable,29.11.2015,1,0,1
+HAPPY MASTER'S,sable & tricolour,27.11.2015,4,1,5
+BUMTSI BUM,blue merle & tricolour,23.11.2015,1,0,1
+MUSTANTASSUN,sable & tricolour,21.11.2015,4,0,4
+KENKÄVERO,blue merle & tricolour,23.7.2015,0,1,1

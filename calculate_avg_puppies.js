@@ -28,7 +28,7 @@ const isSameColorCombination = (colors1, colors2) => {
         colors1[1] === colors2[1]
 }
 
-module.exports.calculateAvgPuppies = litters => {
+module.exports.calculate = litters => {
     // Find unique color-combinations from the data
     const colorCombinations = litters
         .map(litter => litter.colors)
@@ -36,7 +36,7 @@ module.exports.calculateAvgPuppies = litters => {
 
     // Merge data for the color-combinations between multiple litters
     const counts = colorCombinations
-    .filter(combination => !combination.includes('(puuttuu)'))
+    .filter(combination => !combination.includes(null))
     .map(combination => {
         const matchingLitters = litters
             .filter(litter => isSameColorCombination(litter.colors, combination));
@@ -46,6 +46,8 @@ module.exports.calculateAvgPuppies = litters => {
             avgPuppies: matchingLitters
                 .map(m => m.data.totalCount)
                 .reduce((count, total) => total + count, 0) / matchingLitters.length || null,
+            totalPuppies: matchingLitters.map(m => m.data.totalCount)
+                .reduce((count, total) => total + count, 0) || 0,
             litters: matchingLitters.length
         };
 
@@ -53,6 +55,15 @@ module.exports.calculateAvgPuppies = litters => {
 
     const sortedAndFiltered = counts.sort((a, b) => b.avgPuppies - a.avgPuppies);
     return sortedAndFiltered;
+}
+
+module.exports.formatToCsv = sortedAndFiltered => {
+    const lines = [];
+    lines.push('COLOR COMBINATION,NUM. OF LITTERS,TOTAL PUPPIES,AVG. PUPPIES PER LITTER');
+    sortedAndFiltered.forEach(s => {
+        lines.push(`${s.colors[0]} & ${s.colors[1]},${s.litters},${s.totalPuppies},${s.avgPuppies.toFixed(2)}`);
+    });
+    return lines;
 }
 
 return module.exports;

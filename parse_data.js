@@ -61,6 +61,9 @@ module.exports.parseYear = (year, contents) => {
 const parseLitterData = tr => {
     const $ = cheerio;
 
+    const date = $(tr.children[1]).text().replace('synt. ', '');
+    const kennel = $(tr.children[2]).text();
+
     // Example values of countTxt:
     // - "1 uros, 1 narttu"
     // - "2 urosta, 4 narttua"
@@ -90,7 +93,8 @@ const parseLitterData = tr => {
     }
 
     return {
-        name: $(tr.children[2]).text(),
+        kennel,
+        date,
         urosCount,
         narttuCount,
         totalCount: urosCount + narttuCount
@@ -104,19 +108,36 @@ const parseDogColor = tr => {
     const $ = cheerio;
     const rawColor = $(tr.children[5]).text();
 
-    // Map and harmonize data
+    // Harmonize data and translate to English.
     switch (rawColor) {
+        case "soopeli":
+            return "sable";
         case "soopeli valkoisin merkein":
-            return "soopeli";
+            return "sable";
         case "soopeli-valkoinen":
-            return "soopeli";
+            return "sable";
+        case "mustavalkoinen":
+            return "black and white";
         case "musta-valkoinen":
-            return "mustavalkoinen";
+            return "black and white";
+        case "tricolour":
+            return "tricolour";
+        case "blue merle":
+            return "blue merle";
         case "":
-            return "(puuttuu)"
+            return null;
         default:
-            return rawColor;
+            throw "Unmapped color " + rawColor;
     }
+}
+
+module.exports.formatTsv = litters => {
+    const lines = [];
+    lines.push('NAME,COLOR_COMBINATION,DATE,MALE_PUPPIES,FEMALE_PUPPIES,TOTAL_PUPPIES');
+    litters.forEach(litter => {
+        lines.push(`${litter.data.kennel},${litter.colors[0]} & ${litter.colors[1]},${litter.data.date},${litter.data.urosCount},${litter.data.narttuCount},${litter.data.totalCount}`);
+    });
+    return lines;
 }
 
 return module.exports;

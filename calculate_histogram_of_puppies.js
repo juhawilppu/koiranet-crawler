@@ -1,8 +1,8 @@
 module.exports = {};
 
-module.exports.calculateHistogramPuppies = litters => {
+module.exports.calculate = litters => {
 
-    const sizes = Array.apply(null, {length: 15+1}).map(Number.call, Number);
+    const sizes = Array.apply(null, {length: 10+1}).map(Number.call, Number);
     
     const sizesCounts = sizes.map(size => {
         return {
@@ -11,10 +11,16 @@ module.exports.calculateHistogramPuppies = litters => {
         }
     })
 
-    console.log('NUMBER OF PUPPIES,LITTERS');
-    sizesCounts.map(s => {
-        console.log(`${s.size},${s.count}`);
+    return sizesCounts;
+}
+
+module.exports.formatToCsv = sizesCounts => {
+    const lines = [];
+    lines.push('NUMBER OF PUPPIES,LITTERS');
+    sizesCounts.forEach(s => {
+        lines.push(`${s.size},${s.count}`);
     });
+    return lines;
 }
 
 return module.exports;
