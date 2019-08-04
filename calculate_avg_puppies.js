@@ -57,7 +57,7 @@ module.exports.calculate = litters => {
     return sortedAndFiltered;
 }
 
-module.exports.formatToCsv = sortedAndFiltered => {
+module.exports.formatToTsv = sortedAndFiltered => {
     const lines = [];
     lines.push('COLOR COMBINATION,NUM. OF LITTERS,TOTAL PUPPIES,AVG. PUPPIES PER LITTER');
     sortedAndFiltered.forEach(s => {

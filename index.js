@@ -19,10 +19,10 @@ const littersTsv = parseData.formatTsv(litters);
 saveToDisk('./results/litters.txt', littersTsv);
 
 const avgPuppies = calculateAvgPuppies.calculate(litters);
-const avgPuppiesCsv = calculateAvgPuppies.formatToCsv(avgPuppies);
+const avgPuppiesCsv = calculateAvgPuppies.formatToTsv(avgPuppies);
 saveToDisk('./results/avg_puppies.txt', avgPuppiesCsv);
 
 const puppyHistogram = calculateHistogramPuppies.calculate(litters);
-const puppyHistogramCsv = calculateHistogramPuppies.formatToCsv(puppyHistogram);
+const puppyHistogramCsv = calculateHistogramPuppies.formatToTsv(puppyHistogram);
 saveToDisk('./results/puppy_histogram.txt', puppyHistogramCsv);
 

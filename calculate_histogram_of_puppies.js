@@ -14,7 +14,7 @@ module.exports.calculate = litters => {
     return sizesCounts;
 }
 
-module.exports.formatToCsv = sizesCounts => {
+module.exports.formatToTsv = sizesCounts => {
     const lines = [];
     lines.push('NUMBER OF PUPPIES,LITTERS');
     sizesCounts.forEach(s => {
