@@ -1,4 +1,4 @@
-export const calculateHistogram = litters => {
+exports.calculate = litters => {
     const sizes = Array.apply(null, {length: 10+1}).map(Number.call, Number);
     
     const sizesCounts = sizes.map(size => {
@@ -11,7 +11,7 @@ export const calculateHistogram = litters => {
     return sizesCounts;
 }
 
-export const formatHistogramCsv = sizesCounts => {
+exports.formatCsv = sizesCounts => {
     const lines = [];
     lines.push('NUMBER OF PUPPIES,LITTERS');
     sizesCounts.forEach(s => {

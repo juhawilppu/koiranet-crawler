@@ -1,4 +1,4 @@
-export const calculateAvgPuppies = litters => {
+exports.calculate = litters => {
     // Find unique color-combinations from the data
     const colorCombinations = litters
         .map(litter => litter.colors)
@@ -27,7 +27,7 @@ export const calculateAvgPuppies = litters => {
     return sortedAndFiltered;
 }
 
-export const formatAvgPuppiesCsv = sortedAndFiltered => {
+exports.formatCsv = sortedAndFiltered => {
     const lines = [];
     lines.push('COLOR COMBINATION,NUM. OF LITTERS,TOTAL PUPPIES,AVG. PUPPIES PER LITTER');
     sortedAndFiltered.forEach(s => {

@@ -3,7 +3,7 @@ Script that crawls KoiraNet (https://jalostus.kennelliitto.fi) website to parse 
 
 ## Running Locally
 
-Make sure you have [Node.js](http://nodejs.org/) installed.
+Prerequirements: [Node.js](http://nodejs.org/) installed.
 
 ```sh
 git clone git@github.com:juhawilppu/koiranet-crawler.git
@@ -13,3 +13,8 @@ npm start
 ```
 
 This will start Nodemon to re-run the code if any files are changed.
+
+## Test
+```
+npm test
+```
