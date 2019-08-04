@@ -131,7 +131,7 @@ const parseDogColor = tr => {
     }
 }
 
-module.exports.formatTsv = litters => {
+module.exports.formatCsv = litters => {
     const lines = [];
     lines.push('NAME,COLOR_COMBINATION,DATE,MALE_PUPPIES,FEMALE_PUPPIES,TOTAL_PUPPIES');
     litters.forEach(litter => {

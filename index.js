@@ -15,14 +15,14 @@ const litters2017 = parseData.parseYear(2017, fileReader.read(files[1]));
 const litters2016 = parseData.parseYear(2016, fileReader.read(files[2]));
 const litters = [].concat(litters2018).concat(litters2017).concat(litters2016);
 
-const littersTsv = parseData.formatTsv(litters);
-saveToDisk('./results/litters.txt', littersTsv);
+const littersCsv = parseData.formatCsv(litters);
+saveToDisk('./results/litters.txt', littersCsv);
 
 const avgPuppies = calculateAvgPuppies.calculate(litters);
-const avgPuppiesCsv = calculateAvgPuppies.formatToTsv(avgPuppies);
+const avgPuppiesCsv = calculateAvgPuppies.formatToCsv(avgPuppies);
 saveToDisk('./results/avg_puppies.txt', avgPuppiesCsv);
 
 const puppyHistogram = calculateHistogramPuppies.calculate(litters);
-const puppyHistogramCsv = calculateHistogramPuppies.formatToTsv(puppyHistogram);
+const puppyHistogramCsv = calculateHistogramPuppies.formatToCsv(puppyHistogram);
 saveToDisk('./results/puppy_histogram.txt', puppyHistogramCsv);
 
