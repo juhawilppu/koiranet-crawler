@@ -1,7 +1,9 @@
 # koiranet-crawler
-Script that crawls KoiraNet (https://jalostus.kennelliitto.fi) website to parse information about litters.
+Script that crawls KoiraNet (https://jalostus.kennelliitto.fi) website to parse information about litters. To make development faster and to make sure that the data doesn't get lost, I downloaded the website content and parsed them locally.
 
-## Running Locally
+All the original data is saved into `/data` folder. Results are saved into `/results`.
+
+## Running locally
 
 Prerequirements: [Node.js](http://nodejs.org/) installed.
 
@@ -12,7 +14,7 @@ npm install
 npm start
 ```
 
-This will start Nodemon to re-run the code if any files are changed.
+This will start ts-node and calculate the results.
 
 ## Test
 ```
