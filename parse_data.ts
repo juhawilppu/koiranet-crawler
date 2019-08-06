@@ -1,4 +1,4 @@
-{
+const cheerio = require('cheerio');
 
 interface Litter {
     colors: string[];
@@ -10,15 +10,15 @@ interface Litter {
         totalCount: number;
     }
 }
+export { Litter };
 
-const cheerio = require('cheerio');
-exports.parseYear = (contents : string) => {
+export const parseContents = (contents : string) => {
     const $ = cheerio.load(contents);
     const tbody = $('#Table tbody');
 
     const litters : Litter[] = [];
 
-    tbody.children().each((index, tr) => {
+    tbody.children().each((index : number, tr : any) => {
         const ROWS_PER_LITTER = 4;
 
         // The html doesn't have a specific parent for each litter.
@@ -61,10 +61,12 @@ exports.parseYear = (contents : string) => {
     return litters;
 }
 
+
+
 /**
  * Parse KoiraNet HTML for litter basic data
  */
-const parseLitterData = tr => {
+export const parseLitterData = (tr : any) => {
     const $ = cheerio;
 
     const date = exports.parseDate($(tr.children[1]).text());
@@ -83,7 +85,7 @@ const parseLitterData = tr => {
     }
 }
 
-exports.parseDate = date => {
+export const parseDate = (date : string) => {
     return date.replace('synt. ', '')
 }
 
@@ -94,25 +96,25 @@ exports.parseDate = date => {
 // - "2 urosta"
 // - "1 narttu"
 // - "7 narttua"
-exports.count = countTxt => {
-    const countSplitted = countTxt.split(',');
+export const count = (countTxt : string) => {
+    const countSplitted = countTxt.split(',') as string[];
 
     let urosCount;
     let narttuCount;
 
     if (countSplitted.length === 1) {
         if (countSplitted[0].includes('uros')) {
-            urosCount = parseInt(countSplitted[0].replace(' urosta').replace(' uros'), 10);
+            urosCount = parseInt(countSplitted[0].replace(' urosta', '').replace(' uros', ''), 10);
             narttuCount = 0;
         } else if (countSplitted[0].includes('nart')) {
             urosCount = 0;
-            narttuCount = parseInt(countSplitted[0].replace(' narttua').replace(' narttu'), 10);
+            narttuCount = parseInt(countSplitted[0].replace(' narttua', '').replace(' narttu', ''), 10);
         } else {
             throw "Unable to parse: " + countTxt;
         }
     } else {
-        urosCount = parseInt(countSplitted[0].replace(' urosta').replace(' uros'), 10);
-        narttuCount = parseInt(countSplitted[1].replace(' narttua').replace(' narttu'), 10);
+        urosCount = parseInt(countSplitted[0].replace(' urosta', '').replace(' uros', ''), 10);
+        narttuCount = parseInt(countSplitted[1].replace(' narttua', '').replace(' narttu', ''), 10);
     }
 
     return {
@@ -125,13 +127,13 @@ exports.count = countTxt => {
 /**
  * Parse KoiraNet HTML for a dog information
  */
-exports.parseDogColor = tr => {
+export const parseDogColor = (tr : any) => {
     const $ = cheerio;
     const rawColor = $(tr.children[5]).text();
-    return this.mapDogColor(rawColor);
+    return exports.mapDogColor(rawColor);
 }
 
-exports.mapDogColor = rawColor => {
+export const mapDogColor = (rawColor : string) => {
     // Harmonize data and translate to English.
     switch (rawColor) {
         case "soopeli":
@@ -155,12 +157,11 @@ exports.mapDogColor = rawColor => {
     }
 }
 
-exports.formatCsv = litters => {
+export const formatCsv = (litters : Litter[]) => {
     const lines = [];
     lines.push('NAME,COLOR_COMBINATION,DATE,MALE_PUPPIES,FEMALE_PUPPIES,TOTAL_PUPPIES');
     litters.forEach(litter => {
         lines.push(`${litter.data.kennel},${litter.colors[0]} & ${litter.colors[1]},${litter.data.date},${litter.data.urosCount},${litter.data.narttuCount},${litter.data.totalCount}`);
     });
     return lines;
-}
 }
