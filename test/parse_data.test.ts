@@ -1,29 +1,7 @@
 const assert = require('assert');
 const nassert = require('n-assert');
 
-describe('ParseData', function () {
-    it('should parse all litters (read from a file)', function () {
-        const { readFile } = require ('../file_reader');
-        const parseData = require('../parse_data');
-        const litters = parseData.parseYear(readFile('./test/test_data/test_data.htm'));
-
-        assert.equal(litters.length, 259);
-    });
-
-    it('should contain correct litter information (read from a file)', function () {
-        const { readFile } = require ('../file_reader');
-        const parseData = require('../parse_data');
-        const litters = parseData.parseYear(readFile('./test/test_data/test_data.htm'));
-        const litter = litters[0];
-
-        assert.equal(litter.data.kennel, "NEW SPICES");
-        assert.equal(litter.data.date, "24.11.2016");
-        assert.equal(litter.colors[0], "blue merle");
-        assert.equal(litter.colors[1], "tricolour");
-        assert.equal(litter.data.urosCount, 2);
-        assert.equal(litter.data.narttuCount, 2);
-        assert.equal(litter.data.totalCount, 4);
-    });
+describe('ParseData (unit tests)', function () {
 
     it('should parse dog amounts', function () {
         const parseData = require('../parse_data');
@@ -50,5 +28,29 @@ describe('ParseData', function () {
         assert.equal("10.12.2018", parseData.parseDate("synt. 10.12.2018"));
     });
 
-
 });
+
+describe('ParseData (read from a file tests)', function () {
+    it('should parse all litters', function () {
+        const { readFile } = require ('../file_reader');
+        const parseData = require('../parse_data');
+        const litters = parseData.parseContents(readFile('./test/test_data/test_data.htm'));
+
+        assert.equal(litters.length, 259);
+    });
+
+    it('should contain correct litter information', function () {
+        const { readFile } = require ('../file_reader');
+        const parseData = require('../parse_data');
+        const litters = parseData.parseContents(readFile('./test/test_data/test_data.htm'));
+        const litter = litters[0];
+
+        assert.equal(litter.data.kennel, "NEW SPICES");
+        assert.equal(litter.data.date, "24.11.2016");
+        assert.equal(litter.colors[0], "blue merle");
+        assert.equal(litter.colors[1], "tricolour");
+        assert.equal(litter.data.urosCount, 2);
+        assert.equal(litter.data.narttuCount, 2);
+        assert.equal(litter.data.totalCount, 4);
+    });
+})
