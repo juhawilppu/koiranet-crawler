@@ -10,10 +10,9 @@ const files = [
     'data/2016/KoiraNet-jalostustietojärjestelmä.htm'
 ];
 
-const litters2018 = parseContents(readFile(files[0]));
-const litters2017 = parseContents(readFile(files[1]));
-const litters2016 = parseContents(readFile(files[2]));
-const litters = [].concat(litters2018).concat(litters2017).concat(litters2016);
+const litters = files
+    .map(file => parseContents(readFile(file)))
+    .reduce((acc, val) => acc.concat(val));
 
 const littersCsv = formatParseDataToCsv(litters);
 saveToDisk('./results/litters.txt', littersCsv);
